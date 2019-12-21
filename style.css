@@ -1,0 +1,51 @@
+#tooltip {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    position: absolute;
+    text-align: left;
+    width: 250px;
+    padding: 8px;
+    font: 12px;
+    box-shadow: 1px 1px 10px;
+    border-radius: 2px;
+    border-color: #3D3C3C;
+    pointer-events: none;
+    background: grey;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: #3D3C3C;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+text{
+    color: rgb(138, 138, 138);
+}
+
+line{
+    color: #979797;
+    stroke-width: 3px;
+}
+
+.domain{
+    stroke-width: 1px;
+}
+
+.square{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    float: left;
+}
+
+.blue{
+    background: rgb(166, 206, 227);
+}
+.darker-blue{
+    background: rgb(31, 120, 180);
+}
